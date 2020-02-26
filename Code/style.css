@@ -1,3 +1,24 @@
 
   /* font-family: 'Roboto', ;
-    font-family: 'Montserrat', ;/*
+    font-family: 'Montserrat', ;*/
+
+
+    figure {
+  width: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  width: 70px;
+  height: 4px;
+  background: red;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: red;
+  margin-left: -3px;
+}
