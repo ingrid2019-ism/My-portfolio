@@ -2,6 +2,56 @@
   /* font-family: 'Roboto', ;
     font-family: 'Montserrat', ;*/
 
+header {
+  display: flex;
+  flex-direction: column;
+  height: 508px;
+  width: 100%;
+  background-image: url("images/headerimg1.png");
+  background-repeat: no-repeat, repeat;
+  background: cover;
+  position: relative;
+  margin: 0px;
+  }
+
+header, h1 {
+  color: #ffffff ;
+  font-family: 'Montserrat';
+  font-size: 40px;
+  text-align: left;
+  } 
+
+.style-heading {
+  font-weight: bold;
+  top: 196px;
+  left: 41px;
+  width: 212px;
+  height: 95px;
+  opacity: 1;
+  }  
+
+header, h3, h5 {
+color:#ffffff ;
+font-family: 'Roboto';
+font-size: 24px;
+margin: 0px;
+}
+
+header, h5 {
+  font-size: 13px;
+  }
+
+.bold {
+  font-weight: bold;
+  }
+
+.profile-pic {
+  height: 162px;
+  width: 162px;
+  border-radius: 50%;
+  border: white solid;
+}
+
 
 figure {
   width: 80px;
