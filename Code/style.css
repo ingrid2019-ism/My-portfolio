@@ -14,7 +14,29 @@ header {
   margin: 0px;
   }
 
-header, h1 {
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  padding-top: 100px;
+  padding-right: 30px;
+}  
+
+.icon {
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  opacity: 1;
+  margin-right: 5px;
+  }
+  
+h3 {
+  margin: 0px;
+}
+
+header, h1, h3 {
   color: #ffffff ;
   font-family: 'Montserrat';
   font-size: 40px;
@@ -30,7 +52,7 @@ header, h1 {
   opacity: 1;
   }  
 
-header, h3, h5 {
+header, h5 {
 color:#ffffff ;
 font-family: 'Roboto';
 font-size: 24px;
