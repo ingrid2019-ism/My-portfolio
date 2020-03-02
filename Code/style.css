@@ -2,17 +2,22 @@
   /* font-family: 'Roboto', ;
     font-family: 'Montserrat', ;*/
 
+body {
+  margin: 0px;
+}    
+
 header {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   height: 508px;
-  width: 100%;
+
   background-image: url("images/headerimg1.png");
   background-repeat: no-repeat, repeat;
   background: cover;
   position: relative;
   margin: 0px;
-  }
+}
 
 .icons {
   display: flex;
@@ -30,8 +35,21 @@ header {
   border-radius: 50%;
   opacity: 1;
   margin-right: 5px;
-  }
+}
+
+.text-in-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.small-header {
+  display: flex;
   
+}
+
+
+
 h3 {
   margin: 0px;
 }
@@ -41,7 +59,7 @@ header, h1, h3 {
   font-family: 'Montserrat';
   font-size: 40px;
   text-align: left;
-  } 
+} 
 
 .style-heading {
   font-weight: bold;
@@ -50,7 +68,7 @@ header, h1, h3 {
   width: 212px;
   height: 95px;
   opacity: 1;
-  }  
+}  
 
 header, h5 {
 color:#ffffff ;
@@ -61,17 +79,17 @@ margin: 0px;
 
 header, h5 {
   font-size: 13px;
-  }
+}
 
 .bold {
   font-weight: bold;
-  }
+}
 
 .profile-pic {
   height: 162px;
   width: 162px;
   border-radius: 50%;
-  border: white solid;
+  border: 3px white solid;
 }
 
 
