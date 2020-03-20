@@ -11,12 +11,13 @@ header {
   flex-direction: column;
   align-items: flex-end;
   height: 508px;
-
-  background-image: url("images/headerimg1.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/headerimg1.png);
   background-repeat: no-repeat, repeat;
   background: cover;
   position: relative;
   margin: 0px;
+  
+
 }
 
 .icons {
@@ -40,13 +41,20 @@ header {
 .text-in-header {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: yellow;
+  width: 90%;
 }
 
 .small-header {
-  display: flex;
-  
+display: flex;
+width: 80%;
+
+justify-content: space-between;
+margin-top: 30px;
 }
+  
+
 
 
 
@@ -68,6 +76,8 @@ header, h1, h3 {
   width: 212px;
   height: 95px;
   opacity: 1;
+  margin-bottom: 5px;
+}
 }  
 
 header, h5 {
@@ -83,6 +93,7 @@ header, h5 {
 
 .bold {
   font-weight: bold;
+  font-size: 25px;
 }
 
 .profile-pic {
@@ -94,7 +105,7 @@ header, h5 {
 
 
 figure {
-  width: 80px;
+  width: 60px;
   display: flex;
   align-items: center;
 }
