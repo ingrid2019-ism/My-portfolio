@@ -42,19 +42,22 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: yellow;
+ 
   width: 90%;
 }
 
 .small-header {
-display: flex;
-width: 80%;
 
+display: flex;
+width: 70%;
+align-items: flex-start;
 justify-content: space-between;
 margin-top: 30px;
 }
   
-
+.opacity {
+  opacity: 60%;
+}
 
 
 
@@ -70,15 +73,19 @@ header, h1, h3 {
 } 
 
 .style-heading {
+  
   font-weight: bold;
   top: 196px;
   left: 41px;
   width: 212px;
   height: 95px;
   opacity: 1;
+  margin-top: 0px;
   margin-bottom: 5px;
 }
-}  
+ .small-header, h5 {
+
+ }
 
 header, h5 {
 color:#ffffff ;
@@ -97,10 +104,14 @@ header, h5 {
 }
 
 .profile-pic {
+ 
   height: 162px;
   width: 162px;
   border-radius: 50%;
   border: 3px white solid;
+  margin-right: 30px;
+  margin-top: 35px;
+ 
 }
 
 
