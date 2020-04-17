@@ -113,16 +113,22 @@ header, h5 {
 }
 
 
+
+
 figure {
 
   width: 60px;
   display: flex;
   align-items: center;
+  margin-right: 12px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 0px;
 }
 
 .line {
-  width: 70px;
-  height: 4px;
+  width: 58px;
+  height: 3px;
   background: red;
 }
 
@@ -134,20 +140,57 @@ figure {
   margin-left: -3px;
 }
 
-.grey {
-  background: #F4F4F4;
+.presentation {
+  /*margin: 30px;*/
+ margin: 20px 37px;
+font-size: 17px;
+line-height: 1.6;
+text-align: left;
+}
+
+.decoration {
+  margin-top: 10px;
+}
+
+section {
   display: flex;
   align-items: center;
   justify-items: center;
+  flex-direction: column;
   width: 377px;
   height: 342px;
   font-family: Montserrat;
-  font-size: 17px;
   margin-top: 5px;
+  line-height: 1.6;
+
+  
 }
 
-.red {
-  font-family: Montserrat;
+.grey {
+  background: #F4F4F4;
+ 
+}
+
+.red-background {
+  background: #FA382F;
+  color:#FFFFFF;
+  font-size: 22px;
+  padding: 0px 9px;
+  margin-top: 45px;
+}
+
+.red-solid {
+  color: #FA382F;
+  
 
 }
 
+.section-content {
+  margin: 20px 37px;
+  font-size: 17px;
+  line-height: 1.6;
+  
+}
+ .tech-section {
+   text-align: center;
+ }
