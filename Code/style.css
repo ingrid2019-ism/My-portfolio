@@ -161,9 +161,12 @@ section {
   height: 342px;
   font-family: Montserrat;
   margin-top: 5px;
-  line-height: 1.6;
+  line-height: 1.6;  
+}
 
-  
+.featured-section {
+  width: 377px;
+  height: 1357px;
 }
 
 .grey {
