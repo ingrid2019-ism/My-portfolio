@@ -36,6 +36,11 @@ header {
   border-radius: 50%;
   opacity: 1;
   margin-right: 5px;
+  
+}
+
+.icon:hover {
+  cursor: pointer;
 }
 
 .text-in-header {
@@ -65,7 +70,7 @@ h3 {
   margin: 0px;
 }
 
-header, h1, h3 {
+header, h1 {
   color: #ffffff ;
   font-family: 'Montserrat';
   font-size: 40px;
@@ -160,13 +165,54 @@ section {
   width: 377px;
   height: 342px;
   font-family: Montserrat;
-  margin-top: 5px;
+  /*margin-top: 5px;*/
   line-height: 1.6;  
+}
+
+.featured-content {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 17px;
+  font-family: 'Roboto';
+  margin: 10px 38px;
+}
+
+
+
+.red-header {
+  font-size: 17px;
+  color: #FA382F;
+  font-family: 'Roboto';
+  width: 100%;
+  margin-right: 0px;
+
 }
 
 .featured-section {
   width: 377px;
-  height: 1357px;
+  height: 880px;
+}
+
+.featured-tech {
+  display: flex;
+  justify-content: flex-start;
+  align-items: space-between;
+  margin-right: 40px;
+ 
+}
+
+.featured-p {
+  background: #FDDFE7;
+  font-size: 13px;
+  padding: 1px 5px;
+  margin: 0px 3px 35px 3px;
+
+}
+
+.other-section {
+  width: 377px;
+  height: 600px;
+
 }
 
 .grey {
@@ -184,6 +230,9 @@ section {
 
 .red-solid {
   color: #FA382F;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 21px;
   
 
 }
@@ -197,3 +246,83 @@ section {
  .tech-section {
    text-align: center;
  }
+
+ .my-thoughts {
+   height: 1180px;
+ }
+
+ .thoughts-content {
+   margin: 10px 38px;
+ }
+
+.my-thoughts-img {
+  margin-top: 30px;
+}
+
+.thoughts-header {
+  align-self: flex-start;
+  color:  #FA382F;
+  margin-bottom: 0px;
+}
+
+.thoughts-main-text {
+  margin-top: 5px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  float: left;
+  width: 150%;
+  
+}
+
+.skills-section {
+  height: 780px;
+ }
+
+ .skills-flex {
+   display: flex;
+   flex-wrap: wrap;
+   line-height: 1;
+   margin: 0px 20px;
+   justify-content: space-evenly;
+  }
+.code, .upcoming, .toolbox, .more {
+  text-align: center;
+}
+
+.red-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.red-icon {
+  border-color: #FF0000;
+  padding: 13px;
+  margin: 20px;
+}
+.for-more-link {
+  font-size: 11px;
+  color: #FF0000;
+  font-weight: 900;
+
+}
+.red-links-desc {
+display: flex;
+justify-content: space-between;
+
+}
+
+.left {
+  margin-top: 0px;
+margin-right: 10px;
+}
+
+.middle {
+  margin: 0px 15px 0px 10px;
+}
