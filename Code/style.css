@@ -225,7 +225,7 @@ section {
   color:#FFFFFF;
   font-size: 22px;
   padding: 0px 9px;
-  margin-top: 45px;
+  margin-top: 65px;
 }
 
 .red-solid {
@@ -304,7 +304,7 @@ section {
 .red-icon {
   border-color: #FF0000;
   padding: 13px;
-  margin: 20px;
+  margin: 25px;
 }
 .for-more-link {
   font-size: 11px;
@@ -319,10 +319,35 @@ justify-content: space-between;
 }
 
 .left {
-  margin-top: 0px;
-margin-right: 10px;
+  margin: 0px 8px 0px 15px;
 }
 
 .middle {
-  margin: 0px 15px 0px 10px;
+  margin: 0px 0px 0px 49px;
+}
+
+.right {
+  margin: 0px 0px 0px 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background: #0624bd;
+  color: #FFFFFF;
+  line-height: 1;
+}
+
+footer, h2 {
+  font-size: 21px;
+  font-family: 'Montserrat';
+}
+
+footer, p {
+  font-size: 17px;
+  font-family: 'Roboto';
+ 
 }
